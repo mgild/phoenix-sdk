@@ -773,7 +773,7 @@ impl SDKClient {
         if tx.is_err {
             return None;
         }
-        let events = self.core.parse_events_from_transaction(&tx)?;
+        let events = self.core.parse_events_from_transaction(unsafe {std::mem::transmute(&tx) })?;
         self.parse_raw_phoenix_events(events).await
     }
 
