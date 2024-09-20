@@ -18,7 +18,7 @@ solana-sdk = ">=1.14.12, <1.19"
 solana-client = ">=1.14.12, <1.19"
 borsh = "0.9.3"
 rand = "0.7.3"
-ellipsis-client = { git = "https://github.com/mgild/ellipsis-client", rev = "fa6fb4ae02c4333f85e7e5b59db9f87fe8825fe8" }
+ellipsis-client = { git = "https://github.com/mgild/ellipsis-client", rev = "007d74d0ee199c11f4e433ff419eab88a2d93ff7" }
 ellipsis-transaction-utils = "1.0.0" 
 phoenix-common = { version = "0.2.1", features = [ "no-entrypoint" ]} 
 tokio = { version = "1.23.0", features = ["full"] }
